@@ -1,12 +1,14 @@
 # react-cognito-starter-kit
 React App with Cognito integration to signup, signin and forgot password
 
-Set up your user and identity pools
-Go to the AWS Console and create a user pool and a federated identity pool. The user pool needs an associated app which must NOT have a secret. First build the library, and then the examples, then change into the htdocs directory and run the webserver:
+1. Set up your user and identity pools
+1. Go to the AWS Console and create a user pool and a federated identity pool. 
+2. The user pool needs an associated app which must NOT have a secret. 
+3. First build the library, and then the examples, then change into the htdocs directory and run the webserver:
 
 **Running the app**
 
-npm install & npm start
+`npm install & npm start`
 
 Your browser should open at
 http://localhost:3000
