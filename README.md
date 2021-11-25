@@ -11,7 +11,8 @@ npm start
 Your browser should open at
 http://localhost:3000
 
-Create a test user
+Create a test user:
+
 Go to your user pool and go to "Users and groups"
 Click "create user"
 Complete the form:
@@ -31,7 +32,8 @@ You should then be taken to a verification code entry screen. check your email a
 You should now see the logged in screen, showing your attributes and giving you some options.
 Note that during this flow quitting and reloading the browser, then navigating back to this page, will result in you returning to the correct step.
 
-Logout and Login
+Logout and Login:
+
 Click 'log out'
 You should see the login form
 Login again using your username and the new password you chose above.
